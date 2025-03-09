@@ -43,12 +43,7 @@ ul {
     
 }
 
-.hero_main {
-  
-    
-  
-    
-}
+
 
 
 .hero_left {
@@ -76,11 +71,12 @@ ul {
 }
 
 .placeholder {
-    background-color: #e5e7eb;
+    background-color: gray;
     display: flex;
     align-items: center;
-    padding: 100px 100px;
+    padding: 75px 100px;
     margin: auto 0;
+    flex-shrink: 1;
 }
 
 
@@ -200,7 +196,7 @@ button,
     flex-direction: column;
     justify-content: center;
 
-    flex-grow: 1;
+    flex: 1;
     
 }
 
@@ -217,9 +213,10 @@ button,
 
 .sign-up{
     display: flex;
-    padding: 20px 300px;
+    padding: 2vh 7vw;
     background-color: #f9faf8;
     justify-content:space-between;
+    flex: 1;
 }
 .sign-up_box {
     display: flex;
@@ -231,10 +228,11 @@ padding: 20px ;
     margin: auto;
     flex-basis:60vw;
     
+    
 }
 
 .sign-up_header {
-font-size: 24px;
+font-size: 16px;
 
 
 }
@@ -242,6 +240,7 @@ font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 14px;
    
 }
 
@@ -249,11 +248,11 @@ font-size: 24px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    margin: auto;
+   
 }
 
 .footer_button {
-    margin: auto 0;
+    
 }
 
 .footer {
